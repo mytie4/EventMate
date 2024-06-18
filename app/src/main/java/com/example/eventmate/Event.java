@@ -1,34 +1,36 @@
-package com.example.assignment1;
+package com.example.eventmate;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-@Entity (tableName = "categories")
-public class Category {
+@Entity(tableName = "events")
+public class Event {
 
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
     private  int id;
-
+    @ColumnInfo(name = "eventId")
+    private String eventID;
     @ColumnInfo(name = "categoryId")
     private String catID;
     @ColumnInfo(name = "name")
     private String name;
-    @ColumnInfo(name = "eventCount")
-    private int eventCount;
+    @ColumnInfo(name = "ticketCount")
+    private int ticket;
     @ColumnInfo(name = "status")
     private boolean isActive;
 
-    @ColumnInfo(name = "eventLocation")
-    private String eventLocation;
-
-    public Category(String catID, String name, int eventCount, boolean isActive, String eventLocation) {
+    public Event(String eventID, String catID, String name, int ticket, boolean isActive) {
+        this.eventID = eventID;
         this.catID = catID;
         this.name = name;
-        this.eventCount = eventCount;
+        this.ticket = ticket;
         this.isActive = isActive;
-        this.eventLocation = eventLocation;
+    }
+
+    public String getEventID() {
+        return eventID;
     }
 
     public String getCatID() {
@@ -39,12 +41,16 @@ public class Category {
         return name;
     }
 
-    public int getEventCount() {
-        return eventCount;
+    public int getTicket() {
+        return ticket;
     }
 
     public boolean isActive() {
         return isActive;
+    }
+
+    public void setEventID(String eventID) {
+        this.eventID = eventID;
     }
 
     public void setCatID(String catID) {
@@ -55,27 +61,19 @@ public class Category {
         this.name = name;
     }
 
-    public void setEventCount(int eventCount) {
-        this.eventCount = eventCount;
+    public void setTicket(int ticket) {
+        this.ticket = ticket;
     }
 
     public void setActive(boolean active) {
         isActive = active;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public int getId() {
         return id;
     }
 
-    public String getEventLocation() {
-        return eventLocation;
-    }
-
-    public void setEventLocation(String eventLocation) {
-        this.eventLocation = eventLocation;
+    public void setId(int id) {
+        this.id = id;
     }
 }

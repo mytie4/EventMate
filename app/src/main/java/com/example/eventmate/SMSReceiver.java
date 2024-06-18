@@ -1,11 +1,10 @@
-package com.example.assignment1.assignment1;
+package com.example.eventmate;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.provider.Telephony;
 import android.telephony.SmsMessage;
-import android.widget.Toast;
 
 public class SMSReceiver extends BroadcastReceiver {
 

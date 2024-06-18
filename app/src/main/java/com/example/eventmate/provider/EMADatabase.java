@@ -1,4 +1,4 @@
-package com.example.assignment1.provider;
+package com.example.eventmate.provider;
 
 import android.content.Context;
 
@@ -6,8 +6,8 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.example.assignment1.Category;
-import com.example.assignment1.Event;
+import com.example.eventmate.Category;
+import com.example.eventmate.Event;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

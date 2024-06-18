@@ -1,4 +1,4 @@
-package com.example.assignment1.assignment1;
+package com.example.eventmate;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -8,9 +8,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.assignment1.R;
-import com.example.assignment1.assignment1.Login;
 
 public class MainActivity extends AppCompatActivity {
 

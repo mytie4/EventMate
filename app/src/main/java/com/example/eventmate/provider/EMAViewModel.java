@@ -1,4 +1,4 @@
-package com.example.assignment1.provider;
+package com.example.eventmate.provider;
 
 import android.app.Application;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.example.assignment1.Category;
-import com.example.assignment1.Event;
+import com.example.eventmate.Category;
+import com.example.eventmate.Event;
 
 import java.util.List;
 

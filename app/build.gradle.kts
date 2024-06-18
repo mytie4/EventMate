@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.assignment1"
+    namespace = "com.example.eventmate"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.assignment1"
+        applicationId = "com.example.eventmate"
         minSdk = 34
         targetSdk = 34
         versionCode = 1

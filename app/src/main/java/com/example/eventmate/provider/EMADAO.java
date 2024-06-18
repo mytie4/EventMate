@@ -1,12 +1,12 @@
-package com.example.assignment1.provider;
+package com.example.eventmate.provider;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.example.assignment1.Category;
-import com.example.assignment1.Event;
+import com.example.eventmate.Category;
+import com.example.eventmate.Event;
 
 import java.util.List;
 

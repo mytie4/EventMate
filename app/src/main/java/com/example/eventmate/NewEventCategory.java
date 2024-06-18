@@ -1,10 +1,9 @@
-package com.example.assignment1;
+package com.example.eventmate;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -16,13 +15,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.assignment1.assignment1.SMSReceiver;
-import com.example.assignment1.provider.EMAViewModel;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import com.example.eventmate.provider.EMAViewModel;
 
-import java.lang.reflect.Type;
-import java.util.ArrayList;
 import java.util.Random;
 import java.util.StringTokenizer;
 

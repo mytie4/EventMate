@@ -1,4 +1,4 @@
-package com.example.assignment1.assignment1;
+package com.example.eventmate;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -13,8 +13,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
-
-import com.example.assignment1.R;
 
 import java.util.Random;
 import java.util.StringTokenizer;

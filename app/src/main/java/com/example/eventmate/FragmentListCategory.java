@@ -1,4 +1,4 @@
-package com.example.assignment1;
+package com.example.eventmate;
 
 import android.os.Bundle;
 
@@ -11,7 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.assignment1.provider.EMAViewModel;
+import com.example.eventmate.provider.EMAViewModel;
 
 import java.util.ArrayList;
 

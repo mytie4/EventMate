@@ -1,4 +1,4 @@
-package com.example.assignment1;
+package com.example.eventmate;
 
 import androidx.fragment.app.FragmentActivity;
 
@@ -13,7 +13,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.example.assignment1.databinding.ActivityGoogleMapBinding;
+import com.example.eventmate.databinding.ActivityGoogleMapBinding;
 
 import java.util.Locale;
 

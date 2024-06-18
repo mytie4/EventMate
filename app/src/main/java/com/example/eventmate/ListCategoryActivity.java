@@ -1,4 +1,4 @@
-package com.example.assignment1.assignment2;
+package com.example.eventmate;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,22 +6,19 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.example.assignment1.FragmentListEvent;
-import com.example.assignment1.R;
-
-public class ListEventActivity extends AppCompatActivity {
+public class ListCategoryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.event_bar_layout);
+        setContentView(R.layout.cat_bar_layout);
 
         //Initialise toolbar
-        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbarEvent);
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbarCat);
         //Set toolbar as actionbar
         setSupportActionBar(myToolbar);
         //Change the name displayed
-        getSupportActionBar().setTitle("Events List");
+        getSupportActionBar().setTitle("Categories List");
 
         //Set navigation
         myToolbar.setNavigationIcon(R.drawable.baseline_arrow_back_24);
@@ -29,14 +26,12 @@ public class ListEventActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                ListEventActivity.this.finish();
+                ListCategoryActivity.this.finish();
             }
         });
 
-        //Have fragment inside the event_container
+        //Have fragment inside the category_container
         getSupportFragmentManager().beginTransaction().replace(
-                R.id.event_container, new FragmentListEvent()).commit();
-
+                R.id.category_container, new FragmentListCategory()).commit();
     }
-
 }

@@ -10,3 +10,5 @@ EventMate is a event management application designed to streamline the process o
 - **Google Maps Integration**: View events on a map.
 - **Data Persistence**: Utilises SharedPreferences for user preferences and a local database for persistent storage of event data.
 - **Dynamic Data Display**: Utilises RecyclerView for efficient list handling and Fragments for modular UI design.
+
+Created using Android Studio.

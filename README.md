@@ -1,6 +1,6 @@
 # EventMate
 
-EventMate is a event management application designed to streamline the process of organising events.
+EventMate is a event management android application designed to streamline the process of organising events.
 
 ## Features
 
